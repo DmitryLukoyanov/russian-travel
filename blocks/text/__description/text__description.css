@@ -1,0 +1,25 @@
+.text__description {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 163%;
+  padding-bottom: 26px;
+}
+
+.text__description:last-of-type {
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .text__description {
+    padding-bottom: 27px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .text__description {
+    font-size: 16px;
+    padding-bottom: 25px;
+  }
+}
+

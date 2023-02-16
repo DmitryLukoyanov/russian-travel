@@ -1,0 +1,17 @@
+.url__link {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #fff;
+  transition: opacity 0.2s linear;
+}
+
+.url__link:hover {
+  opacity: 0.2;
+}
+
+@media screen and (max-width: 767px) {
+  .url__link {
+    padding: 0 16px 32px;
+  }
+}

@@ -1,0 +1,15 @@
+.photo {
+  padding-bottom: 92px;
+}
+
+@media screen and (max-width: 1023px) {
+  .photo {
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .photo {
+    padding-bottom: 64px;
+  }
+}

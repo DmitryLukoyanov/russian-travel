@@ -1,0 +1,14 @@
+.root {
+  font-family: 'Inter', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  max-width: 1184px;
+  margin: 0 auto;
+  padding-top: 28px;
+  color: #fff;
+}
+
+@media screen and (max-width: 767x) {
+  .root {
+    padding-top: 16px;
+  }
+}
