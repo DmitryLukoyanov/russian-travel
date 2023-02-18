@@ -1,4 +1,4 @@
-.title__header {
+.place__header {
   margin: 0;
   font-size: 72px;
   font-weight: 900;
@@ -6,16 +6,16 @@
 }
 
 @media screen and (max-width: 1023px) {
-  .title__header {
+  .place__header {
     font-size: 42px;
     line-height: 46px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .title__header {
+  .place__header {
     font-size: 32px;
     line-height: 35px;
-    padding-bottom: 32px;
+    padding: 0 16px 32px;
   }
 }

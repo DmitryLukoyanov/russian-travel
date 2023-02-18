@@ -1,20 +1,28 @@
 .intro {
   display: flex;
+  position: relative;
   flex-direction: column;
   padding-bottom: 92px;
   max-width: 690px;
+  padding-left: calc((100% - 984px)/2);
+}
+
+@media screen and (max-width: 1179px) {
+  .intro {
+    padding-left: calc((100% - 928px)/2);
+  }
 }
 
 @media screen and (max-width: 1023px) {
   .intro {
-    padding-bottom: 88px;
+    padding: 0 24px 88px;
     max-width: 720px;
+
   }
 }
 
 @media screen and (max-width: 767px) {
   .intro {
     padding: 0 16px 64px;
-    max-width: 288px;
   }
 }

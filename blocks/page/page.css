@@ -1,4 +1,4 @@
-.container {
+.page {
   margin: 0 auto;
   width: 984px;
 }
@@ -6,7 +6,7 @@
 
 /*   горизонтальный планшет */
 @media screen and (max-width: 1279px) {
-  .container {
+  .page {
     width: 928px;
    }
 
@@ -14,15 +14,15 @@
 
 /*  вертикальный планшет */
 @media screen and (max-width: 1023px) {
-  .container {
-    width:  720px;
+  .page {
+    width: 720px;
   }
 }
 
 /*  телефон (до вертикального планшета) */
 @media screen and (max-width: 767px) {
-  .container {
-    width:  100%;
+  .page {
+    width: 100%;
   }
 }
 
