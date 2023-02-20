@@ -3,7 +3,6 @@
   width: 984px;
 }
 
-
 /*   горизонтальный планшет */
 @media screen and (max-width: 1279px) {
   .page {

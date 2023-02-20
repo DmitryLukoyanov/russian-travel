@@ -31,7 +31,7 @@
 @media screen and (max-width: 767px) {
   .place {
     gap: 0;
-    grid-template-columns: 288px;
+    grid-template-columns: 320px;
     grid-template-areas:
       "title"
       "url"
